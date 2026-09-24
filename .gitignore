@@ -1,0 +1,9 @@
+node_modules
+dist
+.env
+client/.env
+server/.env
+server/data/db.json
+FOOD PICTURES
+*.log
+.DS_Store
