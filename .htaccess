@@ -1,0 +1,13 @@
+RewriteEngine On
+
+<Files "config.php">
+  Require all denied
+</Files>
+
+RewriteRule ^config/ - [F,L]
+RewriteRule ^includes/ - [F,L]
+RewriteRule ^database\.sql$ - [F,L]
+
+RewriteRule ^uploads/.*\.ph(p|tml)$ - [F,L]
+
+DirectoryIndex index.php

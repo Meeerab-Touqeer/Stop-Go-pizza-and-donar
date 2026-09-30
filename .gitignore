@@ -1,9 +1,17 @@
 node_modules
 dist
 .env
+config.php
+config/config.php
+uploads/*
+!uploads/.htaccess
+client/
 client/.env
 server/.env
 server/data/db.json
+php-api/config.php
+php-api/data/db.json
+php-api/data/rate-limit.json
 FOOD PICTURES
 *.log
 .DS_Store
